@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.github.ibrahim1hero1</groupId>
+    <artifactId>calccedo</artifactId>
+    <version>2.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    
+  <name>Calccedo-v2.0</name>
+  <description>Calccedo-V2 is the next revolution of calccedo-V1, it support many reach features like addSemantic, like add addVariable, like addConstant, like injectFunction, with Calccedo-V2 you can build big complicated mathematical applications</description>
+  <url>https://github.com/ibrahim1hero1/Calccedo</url>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <distributionManagement>
+      <snapshotRepository>
+          <id>ossrh</id>
+          <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      </snapshotRepository> 
+      <repository>
+          <id>ossrh</id>
+          <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+      </repository>
+  </distributionManagement>
+
+
+  <developers>
+    <developer>
+      <name>Ibrahim Abdsaid Hanna</name>
+      <email>ibrahim.seniore@gmail.com</email>
+      <organization>Github</organization>
+      <organizationUrl>https://github.com/ibrahim1hero1</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git://github.com/ibrahim1hero1/Calccedo.git</connection>
+    <developerConnection>scm:git:ssh://github.com:ibrahim1hero1/Calccedo.git</developerConnection>
+    <url>http://github.com/ibrahim1hero1/Calccedo/tree/master</url>
+   </scm>
+    
+    
+    
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+    </properties>
+</project>
