@@ -21,7 +21,7 @@ Calccedo-V2 is the next revolution of calccedo, it support many rich features li
 (https://www.dropbox.com/scl/fi/kvfuxwd8y21pxslwbd7hd/calccedo-2.0.0.zip?rlkey=5oz9uw6qyoduyvtlq9xkydv9m&st=8qjf7yg3&dl=0)
 
 <br/>
-
+Install using Apache Maven
       <repositories>
           <repository>
               <id>jitpack.io</id>
