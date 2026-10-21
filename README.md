@@ -23,6 +23,14 @@ Calccedo-V2 is the next revolution of calccedo, it support many rich features li
 <br/>
 Install using Apache Maven
 
+      <dependencies>
+		<dependency>
+			<groupId>com.github.calccedo</groupId>
+			<artifactId>Calccedo-v2.0</artifactId>
+			<version>2.0.0</version>
+		</dependency>
+	</dependencies>
+      
       <repositories>
           <repository>
               <id>jitpack.io</id>
@@ -30,11 +38,7 @@ Install using Apache Maven
           </repository>
       </repositories>
 
-          <dependency>
-              <groupId>com.github.calccedo</groupId>
-              <artifactId>Calccedo-v2.0</artifactId>
-              <version>2.0.0</version>
-          </dependency>
+        
 
  
 <a style="font-weight: bold;"> Features: </a>
