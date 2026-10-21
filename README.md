@@ -21,7 +21,21 @@ Calccedo-V2 is the next revolution of calccedo, it support many rich features li
 (https://www.dropbox.com/scl/fi/kvfuxwd8y21pxslwbd7hd/calccedo-2.0.0.zip?rlkey=5oz9uw6qyoduyvtlq9xkydv9m&st=8qjf7yg3&dl=0)
 
 <br/>
+<xmp>
+      <repositories>
+          <repository>
+              <id>jitpack.io</id>
+              <url>https://jitpack.io</url>
+          </repository>
+      </repositories>
 
+          <dependency>
+              <groupId>com.github.calccedo</groupId>
+              <artifactId>Calccedo-v2.0</artifactId>
+              <version>2.0.0</version>
+          </dependency>
+
+ </xmp>
 <a style="font-weight: bold;"> Features: </a>
 <pre>
 add semantics like Sin(30) = 0.5
